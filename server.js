@@ -7,6 +7,27 @@ server.get("/", (request, response) => {
     response.send("Welcome to the Home Page.");
 });
 
+server.get("/about", (request, response) => {
+    response.send("Welcome to the About Page.");
+});
+
+server.get("/contact", (request, response) => {
+    return response.send(`<div class="container">
+        <h1>Contact Us</h1>
+        <form id="shorten-form">
+            <div>
+                <label for="url">Name :-</label>
+                <input type="url" name="url" id="url" required>
+            </div>
+            <div>
+                <label for="shortCode">Problem :-</label>
+                <input type="text" name="shortCode" id="shortCode" required>
+            </div>
+            <button type="submit">Resolve</button>
+        </form>
+    </div>`);
+});
+
 const PORT = 1020;
 
 server.listen(PORT, () => {
@@ -18,3 +39,4 @@ server.listen(PORT, () => {
 // // // Finally, your server started :- Server running at 1020;
 // // // Now, open the browser and in url write localhost:1020
 // // // You will get the result on the display as :- Welcome to the Home Page.
+// // // As well as you can switch the pages as localhost:1020/about or localhost:1020/contact;
