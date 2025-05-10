@@ -1,0 +1,19 @@
+{
+  "name": "029--fix_port_number_issues",
+  "version": "1.0.0",
+  "main": "theoryFixPort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoolShivas/029--Fix_Port_Number_Issues.git"
+  },
+  "author": "Shiva Khateek Chouhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoolShivas/029--Fix_Port_Number_Issues/issues"
+  },
+  "homepage": "https://github.com/CoolShivas/029--Fix_Port_Number_Issues#readme",
+  "description": ""
+}
