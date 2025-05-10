@@ -2,6 +2,7 @@
   "name": "029--fix_port_number_issues",
   "version": "1.0.0",
   "main": "theoryFixPort.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
