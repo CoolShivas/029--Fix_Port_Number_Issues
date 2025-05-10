@@ -15,5 +15,8 @@
     "url": "https://github.com/CoolShivas/029--Fix_Port_Number_Issues/issues"
   },
   "homepage": "https://github.com/CoolShivas/029--Fix_Port_Number_Issues#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
