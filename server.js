@@ -28,15 +28,16 @@ server.get("/contact", (request, response) => {
     </div>`);
 });
 
-const PORT = 1020;
+// // // Use of Older Version of Environment Variable;
+const PORT = process.env.PORT || 1020;// // Default PORT is 1020;
 
 server.listen(PORT, () => {
     console.log(`Server Running at ${PORT}`);
 });
 // // // Open the terminal and write down the following commands to run/start the server :-
 // // // Firstly, clear all the things and ls to check the folder;
-// // // Secondly, node --watch server.js to start the server;
-// // // Finally, your server started :- Server running at 1020;
-// // // Now, open the browser and in url write localhost:1020
+// // // Secondly, if you are using the Command Prompt Terminal then write the command :- set PORT=3040 && node --watch app.js to start the server;
+// // // Finally, your server started :- Server running at 3040;
+// // // Now, open the browser and in url write localhost:3040
 // // // You will get the result on the display as :- Welcome to the Home Page.
-// // // As well as you can switch the pages as localhost:1020/about or localhost:1020/contact;
+// // // As well as you can switch the pages as localhost:3040/about or localhost:3040/contact;
